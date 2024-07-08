@@ -90,4 +90,3 @@ This will open the Jupyter Notebook where you can run the cells step by step.
 
 ## Contributors 
 - Sreehari G Varma (sreeharipkgvarma@gmail.com)
-- Bhargav [GitHub](https://github.com/bhagmuniverse)
