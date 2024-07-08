@@ -15,10 +15,8 @@ This project aims to recognize hand gestures using a deep learning model that co
 - [Training](#training)
 - [Evaluation](#evaluation)
 - [Results](#results)
-- [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Contributors](#contributors)
 
 ## Introduction
 Hand gesture recognition is a popular area in computer vision with applications in various fields such as human-computer interaction, sign language recognition, and virtual reality. This project implements a hand gesture recognition system using a combination of CNN and RNN architectures to leverage the spatial and temporal features of the gestures.
@@ -33,6 +31,8 @@ As a data scientist at a home electronics company which manufactures state-of-th
 
 ## Understanding the Dataset
 The training data has hundreds of videos, each one 2-3 seconds long and split into 30 frames. Different people recorded these videos with a webcam, doing one of the five gestures - like the smart TV will use. These videos belong to one of the five classes.
+- ![sample image](https://github.com/sreeharigvarma/Handgesture-Recognition-based-CNN-RNN-Models/blob/main/sample_image.png)
+  
 
 ## Objective
 We need to train various models on the 'train' folder that can identify the action in each sequence or video and do well on the 'val' folder too. The final test folder is hidden - we will test the final model's performance on the 'test' set.
@@ -79,13 +79,6 @@ The trained model is evaluated on the test set using metrics such as accuracy, p
 ## Results
 The model's performance is visualized using plots of training and validation accuracy/loss over epochs. The confusion matrix is used to analyze the model's classification performance.
 
-## Installation
-To run this project, you need to have Python and the required libraries installed. You can install the dependencies using:
-
-```bash
-pip install -r requirements.txt
-```
-
 ## Usage
 To train and evaluate the model, run the following command:
 
@@ -95,12 +88,6 @@ jupyter notebook Handgesture_CNN_RNN.ipynb
 
 This will open the Jupyter Notebook where you can run the cells step by step.
 
-## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
-
-## License
-This project is licensed under the MIT License.
-
-## Contributors
-- Sreehari G Varma
+## Contributors 
+- Sreehari G Varma (sreeharipkgvarma@gmail.com)
 - Bhargav [GitHub](https://github.com/bhagmuniverse)
